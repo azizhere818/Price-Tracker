@@ -1,0 +1,30 @@
+## Price Tracker
+
+A Python automation project that monitors product prices and sends email alerts when the price changes.
+
+## Features
+
+- Scrapes product information
+- Stores price history in CSV
+- Sends automated email notifications
+- Uses BeautifulSoup for HTML parsing
+- Uses Yagmail for email delivery
+
+## Technologies
+
+- Python
+- Requests
+- BeautifulSoup
+- Yagmail
+
+## How to Run
+
+1. Install dependencies
+
+pip install -r requirements.txt
+
+2. Configure email settings
+
+3. Run
+
+python price_tracker.py
